@@ -1,0 +1,28 @@
+[
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.1
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:ocean",
+        "dimension": "minecraft:overworld"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type":"minecraft:player",
+        "flags": {
+          "is_swimming": true
+        }
+      }
+    },
+    {
+      "condition": "minecraft:weather_check",
+      "thundering": true
+    }
+  ]
+  

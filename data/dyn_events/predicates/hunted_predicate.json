@@ -1,0 +1,23 @@
+[
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.3
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "location": {
+          "biome": "minecraft:taiga",
+          "dimension": "minecraft:overworld"
+        },
+        "stepping_on": {
+          "block": {
+            "tag": "minecraft:animals_spawnable_on"
+          }
+        }
+      }
+    }
+  ]
+  

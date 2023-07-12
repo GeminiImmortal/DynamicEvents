@@ -1,0 +1,1 @@
+schedule function dyn_events:timer_main 1s replace

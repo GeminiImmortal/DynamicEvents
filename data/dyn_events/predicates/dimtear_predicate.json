@@ -1,0 +1,28 @@
+[
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "stepping_on": {
+          "biome": "minecraft:desert",
+          "dimension": "minecraft:overworld",
+          "block": {
+            "tag": "minecraft:sand"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.1
+    },
+    {
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 13000,
+        "max": 22750
+      }
+    }
+  ]
+  

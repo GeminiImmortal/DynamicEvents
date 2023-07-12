@@ -1,0 +1,29 @@
+[
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.2
+  },
+  {
+    "condition": "minecraft:time_check",
+    "value": {
+      "min": 13000,
+      "max": 22500
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "location": {
+        "biome": "minecraft:plains",
+        "dimension": "minecraft:overworld"
+      },
+      "stepping_on": {
+        "block": {
+          "tag": "minecraft:animals_spawnable_on"
+        }
+      }
+    }
+  }
+]
