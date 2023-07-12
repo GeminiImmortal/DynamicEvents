@@ -1,3 +1,3 @@
 schedule function dyn_events:repeat 3600s replace
 
-execute as @a at @r[predicate=dyn_events:invasion_predicate] if entity @a[scores={totalKillCount=100}] run function dyn_events:corruption
+execute at @r[predicate=dyn_events:invasion_predicate] if entity @a[scores={totalKillCount=100}] run function dyn_events:corruption

@@ -1,6 +1,6 @@
-tellraw @a {"color":"dark_purple", "text":"You are being hunted..."}
-title @s title ["",{"text":"Scent of Blood","underlined":true, "color":"dark_purple"}]
-title @s subtitle ["",{"text":"You are being hunted...", "color":"dark_red"}]
+tellraw @p {"color":"dark_purple", "text":"You are being hunted..."}
+title @p title ["",{"text":"Scent of Blood","underlined":true, "color":"dark_purple"}]
+title @p subtitle ["",{"text":"You are being hunted...", "color":"dark_red"}]
 summon arrow ~4 ~-1 ~
 data modify entity @e[type=minecraft:arrow,limit=1,sort=nearest] Owner set from entity @s UUID
 summon minecraft:wolf ~6 ~ ~ {Tags:[wolfi]}
