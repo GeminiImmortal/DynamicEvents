@@ -12,4 +12,5 @@ scoreboard objectives add timeuntilsummon dummy
 scoreboard objectives modify timeuntilsummon displayname "Summoning complete in: "
 scoreboard players set Time timeuntilsummon 120
 scoreboard objectives setdisplay sidebar timeuntilsummon
+scoreboard players reset @a totalKillCount
 function dyn_events:countdown

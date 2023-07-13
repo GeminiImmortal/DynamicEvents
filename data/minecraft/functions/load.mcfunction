@@ -7,3 +7,5 @@ scoreboard objectives add drowned_victory dummy
 scoreboard players set #drowned drowned_victory 1
 scoreboard objectives add wb_victory dummy
 scoreboard players set #worldboss wb_victory 1
+scoreboard objectives add kills dummy
+scoreboard players set #killTrigger kills 100
